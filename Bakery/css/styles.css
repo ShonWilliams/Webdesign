@@ -1,0 +1,50 @@
+header {
+	float: left;
+	width: 25%
+
+}
+
+nav{
+	float:right;
+	margin: 8em 5em 0 0;
+	width:70%;	
+}
+
+main{
+	clear:both;
+
+}
+
+body{
+	background-color:black;
+	color: white;
+}
+
+#leftColumn{
+	float:left;
+	width:45%;
+	margin:1%;
+}
+#rightColumn{
+	float:right;
+	width:45%;
+	margin:1%;
+}
+
+footer{
+	clear:both;
+	padding-top: 10px;
+	text-align: center;
+}
+
+.imageBorder{
+	border: 1px solid white;
+	padding: 5px;
+	margin: 10px;
+}
+
+h3{
+	font-family: 'Tangerine', serif;
+    font-size: 48px;
+    text-shadow: 4px 4px 4px #aaa;
+}
