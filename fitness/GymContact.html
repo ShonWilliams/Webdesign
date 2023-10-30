@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!-- Phone number, address, contact form -->
+<html lang = "en">
+	<head>
+		<meta charset= "UTF-8">
+		<link rel ="stylesheet" href="css/styles.css">
+	</head>
+	<header><a href = "GymHome.html"><img src = "ForwardFitness2.png" height = "125" width = "125"></a> <h1>Forward Fitness LLC</h1></header>
+	<br>
+	<nav> 
+	
+	<a href = "Index.html"> Home </a>
+	<a href = "GymAbout.html"> About Us </a>
+	<a href = "Classes.html"> Classes </a>
+	<a href = "GymNutrition.html"> Nutrition </a>
+	<a href = "GymContact.html"> Contact Us </a>
+
+	</nav>
+	<main>
+	<form action ="mailto:swilliams784@bears.shawu.edu" method="POST">
+	<div class = "section" id="name">
+		<label for="name"> Name:</label><input type = "text" name="name" id="name">
+	</div>
+	
+	<div class ="section" id="tel">
+		<label for="tel">Telephone:</label><input type="text" name="telephoneNumber" id="tel">
+	</div>
+	
+	<div class="section" id="email">
+		<label for="email">Email</label><input type="email" name="email" id="email">
+	</div>
+	
+	<div class="section" id="radio">
+		<input type ="radio" name ="howYouHeard" id="google" value="google"><label for="google">Google</label>
+		<input type ="radio" name ="howYouHeard" id="friend" value="google"><label for="friend">Friend</label>
+		<input type ="radio" name ="howYouHeard" id="referred" value="google"><label for="referred">Referred</label>
+	</div>
+	
+	<div class="section" id="checkbox">
+		<input type ="checkbox" name="timeAvailable" id="mornings" value="morning"><label for="morning">Mornings</label>
+		<br>
+		<input type ="checkbox" name="timeAvailable" id="afternoon" value="afternoon"><label for ="afternoon">Afternoons</label>
+		<br>
+		<input type ="checkbox" name="timeAvailable" id="evening" value="evening"><label for="evening">Evenings</label>
+		<br>
+	</div>
+	
+	<div class="section" id="goals">
+		<label for="goals"><h3>What are your fitness goals?</h3></label>
+		<br>
+		<textarea name="reason" id="goals" cols=100 rows=10></textarea>
+	</div>
+	
+	<div class="section" id="submit">
+		<input type="submit"> <input type="reset">
+	</div>
+	
+	</form>
+	
+	
+	<ul>
+		<li> info@forwardfitness </li>
+		<li> 123 Berkley St  Cary NC</li>
+		<li> Call us at (123)123-1234</li>
+	</ul>
+	</main>
+	
+	<footer> 
+		<p> &copy; Copyright 2023. All rights reserved.</p>
+		<p> Email us at <a href ="malito:info@forwardfitness.com">info@forwardfitness</a></p>
+		
+	</footer>
+	
+</html>

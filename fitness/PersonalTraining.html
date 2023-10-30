@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+
+<html lang = "en">
+	<head>
+		<meta charset= "UTF-8">
+		<meta name="viewport" content="width=device-width, initialscale=1.0">
+		<link rel="stylesheet" href="css/styles.css">
+		<link rel="stylesheet" href="css/stylesDesktop.css" media= "screen and (min-width: 481px)">
+		<link rel="stylesheet" href="css/stylesMobile.css" media= "screen and (max-width: 480px)">
+	</head>
+	<body>
+	<div id = "content">
+	<header>
+		<a href = "GymHome.html"><img src = "ForwardFitness2.png" height ="125" width="125"></a>
+		<h1>Forward Fitness LLC</h1>
+	</header>
+	
+	<br>
+	
+	<nav> 
+		<a href = "Index.html"> Home </a>
+		<a href = "GymAbout.html"> About Us </a>
+		<a href = "Classes.html"> Classes </a>
+		<a href = "GymNutrition.html"> Nutrition </a>
+		<a href = "GymContact.html"> Contact Us </a>
+	</nav>
+	
+	<main>
+		<form>
+			<div class="section">
+			<label for ="tel">Telephone Number: </label><input type ="text" name = "telephoneNumber" id="tel"
+			</div>
+	
+		
+			<div class = "section">
+			<label for="age">Age: </label><input type="text" name="age" id="age">
+			</div>
+			
+			<div class = "section">
+				<label for="date">Birthday: </label><input type="date" name="personBirthdate" id="date"
+			</div>
+			
+			<h3> What times are you available? </h3>
+			<div class = "section">
+				<input type="checkbox" name="TimeAvailable" id="morning" value="mornings"><label for="mornings">Mornings</label>
+				<br>
+				<input type="checkbox" name="TimeAvailable" id ="afternoon" value="afternoons"><label for="afternoons">Afternoons</label>
+				<br>
+				<input type="checkbox" name="TimeAvailable" id = "evenings" value="evenings"><label for="evenings">Evenings</label>
+				<br>
+			</div>
+			<div class="section">
+				<label for="training">Tell us about your fitness goals</label>
+				<br>
+				<textarea name="ReasonForTraining" id="training" cols =100 rows= 10></textarea>
+			</div>
+			<div class ="section">
+				<label for="username">Enter a Username</label>
+				<br>
+				<input type="username" id="username" name="username">
+			<div class ="section">
+				<label for="password">Enter a Password</label>
+				<br>
+				<input type="password" id="password" name="password">
+			</div>
+			<div class="section">
+				<input type="radio" name="AgeRange" id="18-29" value="18-29"><label for="18-29">18-29</label>
+				<input type="radio" name="AgeRange" id="30-39" value="30-39"><label for="30-39">30-39</label>
+				<input type="radio" name="AgeRange" id="40-49" value="40-49"><label for="40-49">40-49</label>
+			</div>
+			
+			<div class="section">
+				<input type="submit">
+			
+			</div>
+		</form>
+		
+	</main>
+	</div>
+	</body>
+	<footer> 
+		<p> &copy; Copyright 2023. All rights reserved.</p>
+		<p> Email us at <a href ="malito:info@forwardfitness.com">info@forwardfitness</a></p>
+		
+	</footer>
+	
+</html>
