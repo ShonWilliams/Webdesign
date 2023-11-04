@@ -1,0 +1,93 @@
+h1,h2,h3 {
+	font-family: Brush Script MT, Brush Script Std, cursive;
+	text-align: center;
+	text-decoration: none;
+	
+}
+body {
+	background: #151515;
+	font-family: "lora-regular", serif;
+	font-size: 1.7rem;
+	line-height: 3rem;
+	color: #6e6e6e;
+}
+.nav{ 
+    color: #004aad; 
+    text-align: center; 
+    margin: 5px 5px; 
+    display: flex; 
+    flex-direction: row; 
+    justify-content: space-around; 
+    place-items: center; 
+	float: right;
+	text-decoration: none;
+	position: fixed;
+	top: 0;
+	width: 60%;
+	
+}
+          
+        .section { 
+            width: 100vw; 
+            height: 350vh; 
+            background-color: #151515; 
+            color: white;  
+			padding-left: 10px;
+            margin: 10px 5px; 
+        } 
+          
+        .one{ 
+		padding-top: 400px;
+        background-color: #FFFFFF; 
+		color: black;
+		height: 200vh;} 
+        .three { 
+			padding-top: 400px;
+            background-color: #FFFFFF; 
+			color: black;
+        } 
+         
+	.img{
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+		width: 50%;
+		border-radius: 25px;
+	}
+
+	label{
+		color: black;
+	}
+          
+input[type=text], select, textarea {
+  width: 100%; 
+  padding: 12px;
+  border: 1px solid #ccc; 
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px; 
+  margin-bottom: 16px;
+  resize: vertical 
+}
+
+
+input[type=submit] {
+  background-color: #04AA6D;
+  color: black;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+
+.container {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
